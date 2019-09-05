@@ -253,7 +253,7 @@ if __name__ == "__main__":
             elif (Who_is_playing == BLACK_PLAYER):
                 Action,Q_Values = Agent_Black.act(NN_state, Who_is_playing, time)
 
-            ####### Hard coding actions for debug START ######### 
+            ####### Hard coding action ######### 
             if time == 1 and Who_is_playing == BLACK_PLAYER:               
                 Action = 4
 
